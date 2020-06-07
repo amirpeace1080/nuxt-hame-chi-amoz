@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('./../fonts/Vazir.woff') format('woff');
+}
+head{
+    font-family: vazir;
+}
+
+body {
+    font-family: vazir;
+    font-size: 14px;
+    /* direction: rtl; */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
