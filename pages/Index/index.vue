@@ -1,15 +1,15 @@
 <template>
-  <div class="color-text container--fluid">
+  <div class="container--fluid">
     <div class="container">
       <div class="row">
-        <div class="col-1"></div>
+        <!-- <div class="col-1"></div> -->
 
-        <div class="col-10">
+        <div class="col-12">
           <!-- start item one(jadid tarin ha) -->
           <!-- start title -->
           <div>
-            <span class="far fa-clock mr-3 fa-3x"></span>
-            <span class="title">جدیدترین آموزش ها</span>
+            <span class="far fa-clock mr-3 fa-3x" style="color:#0081ea"></span>
+            <span class="title" style="color:#0081ea">جدیدترین آموزش ها</span>
           </div>
           <hr style="border:1px solid" />
           <!-- end title -->
@@ -23,7 +23,7 @@
                     <div class="conatiner border" style="height:220px;">
                       <img
                         src="https://jalebamooz.com/wp-content/uploads/2020/04/word-image.jpeg"
-                        class="w-100"
+                        class="w-100 "
                         alt="image"
                         style="height:60%"
                       />
@@ -45,8 +45,7 @@
                         style="height:60%"
                       />
                       <p class="text-center mt-2">
-                        فعال سازی تم تیره (دارک مود) برای همه نرم افزار ها در
-                        اندروید ۱۰ و بالاتر
+                        فعال سازی تم تیره برای همه نرم افزار ها
                       </p>
                     </div>
                   </nuxt-link>
@@ -164,22 +163,24 @@
           <!-- end item one(jadid tarin ha) -->
         </div>
 
-        <div class="col-1"></div>
+        <!-- <div class="col-1"></div> -->
       </div>
-      
+
       <p class="mt-5"></p>
       <p class="mt-5"></p>
 
       <div class="row">
-        <div class="col-1"></div>
+        <!-- <div class="col-1"></div> -->
 
-        <div class="col-10">
+        <div class="col-12">
           <!-- start por mokhabha -->
           <!-- start title -->
 
           <div>
-            <span class="fas fa-star mr-3 fa-3x"></span>
-            <span class="title">پرمخاطب ترین آموزش ها</span>
+            <span class="fas fa-star mr-3 fa-3x" style="color:#0081ea"></span>
+            <span class="title" style="color:#0081ea"
+              >پرمخاطب ترین آموزش ها</span
+            >
           </div>
           <hr style="border:1px solid" />
           <!-- end title -->
@@ -200,7 +201,7 @@
                         style="height:60%"
                       />
                       <p class="text-center mt-2">
-                          آموزش فتوشاپ ( Photoshop )
+                        آموزش فتوشاپ ( Photoshop )
                       </p>
                     </div>
                   </nuxt-link>
@@ -217,7 +218,7 @@
                         style="height:60%"
                       />
                       <p class="text-center mt-2">
-                          آموزش ساخت انیمیشن تبلیغاتی (تیزر تبلیغاتی)
+                        آموزش ساخت انیمیشن تبلیغاتی (تیزر تبلیغاتی)
                       </p>
                     </div>
                   </nuxt-link>
@@ -234,7 +235,7 @@
                         style="height:60%"
                       />
                       <p class="text-center mt-2">
-                          فعال سازی تم تیره (دارک مود) برای همه نرم افزار ها در اندروید ۱۰ و بالاتر
+                        فعال سازی تم تیره برای همه نرم افزار ها
                       </p>
                     </div>
                   </nuxt-link>
@@ -251,7 +252,7 @@
                         style="height:60%"
                       />
                       <p class="text-center mt-2">
-                          آموزش موشن گرافیک
+                        آموزش موشن گرافیک
                       </p>
                     </div>
                   </nuxt-link>
@@ -268,7 +269,7 @@
                         style="height:60%"
                       />
                       <p class="text-center mt-2">
-                          راهنمای جامع استفاده از اینستاگرام
+                        راهنمای جامع استفاده از اینستاگرام
                       </p>
                     </div>
                   </nuxt-link>
@@ -285,8 +286,7 @@
                         style="height:60%"
                       />
                       <p class="text-center mt-2">
-                        راهنمای کامل طرز ورود به فیسبوک و تنظیمات آن برای افراد
-                        مبتدی
+                        راهنمای کامل طرز ورود به فیسبوک مبتدی
                       </p>
                     </div>
                   </nuxt-link>
@@ -303,8 +303,7 @@
                         style="height:60%"
                       />
                       <p class="text-center mt-2">
-                        روش ثبت نام، ورود و استفاده از توییتر برای افراد مبتدی
-                        (به زبان کاملا ساده)
+                        روش ثبت نام، ورود و استفاده از توییتر
                       </p>
                     </div>
                   </nuxt-link>
@@ -321,7 +320,7 @@
                         style="height:60%"
                       />
                       <p class="text-center mt-2">
-                        نصب رایگان واتساپ جدید فارسی روی گوشی به سادگی آب خوردن!
+                        نصب رایگان واتساپ جدید فارسی روی گوشی به سادگی!
                       </p>
                     </div>
                   </nuxt-link>
@@ -352,7 +351,14 @@ export default {
 </script>
 
 <style scoped>
-.color-text {
-  color: #03a9f4;
+.text-center {
+  color: #054970;
+  font-size: 13px;
+}
+.text-center:hover {
+  color: #0081ea;
+}
+.w-100 {
+  border-radius: 6px;
 }
 </style>

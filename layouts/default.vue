@@ -3,7 +3,7 @@
       <Header />
     
   
-      <v-content class="theme--light grey lighten-4">
+      <v-content class="color-all grey lighten-4">
         <nuxt />
       </v-content>
     
@@ -25,3 +25,8 @@ export default {
 }
 </script>
 
+<style scoped>
+  .color-all{
+    background-color: #E0E0E0;
+  }
+</style>

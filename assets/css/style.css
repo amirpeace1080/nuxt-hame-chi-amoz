@@ -2,7 +2,8 @@
     font-family: 'vazir';
     src: url('./../fonts/Vazir.woff') format('woff');
 }
-head{
+
+head {
     font-family: vazir;
 }
 

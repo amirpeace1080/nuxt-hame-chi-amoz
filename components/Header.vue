@@ -721,6 +721,7 @@ export default {
 } */
 
 .h-background {
+  background-color: #FAFAFA;
   color: #424242;
   font-size: 18px;
 }
@@ -736,6 +737,6 @@ export default {
 .h-item:hover {
   font-size: 20px;
   transition-delay: 1000;
-  color: black;
+  color: #546E7A;
 }
 </style>

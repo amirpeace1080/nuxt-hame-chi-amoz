@@ -1,5 +1,5 @@
 <template>
-  <v-carousel hide-delimiters height="340px">
+  <v-carousel hide-delimiters height="340px" class="radi">
     <v-carousel-item
       v-for="(item,i) in items"
       :key="i"
@@ -33,3 +33,9 @@
     },
   }
 </script>
+
+<style scoped>
+  .radi{
+    border-radius: 8px;
+  }
+</style>
